@@ -73,7 +73,7 @@ const WorldMap = () => {
     
       {selectedCountry && (
         <div>
-          <h2>{selectedCountry.name}</h2>
+          <h2>Country:{selectedCountry.name}</h2>
           <p>Capital:{contrydetails[0]?.capital[0]}</p>
           <img src={contrydetails[0]?.flags.png}/>
         
